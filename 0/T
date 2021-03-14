@@ -36,6 +36,11 @@ boundaryField
         value           $internalField;
         inletValue      $internalField;
     }
+    ground
+    {
+        type            fixedValue;
+        value           $internalField;
+    }
     model
     {
         type            zeroGradient;

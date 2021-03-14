@@ -48,6 +48,10 @@ boundaryField
         // psi             psi;
         // pInf            $internalField;
     }
+    ground
+    {
+        type            zeroGradient;
+    }
     model
     {
         type            zeroGradient;

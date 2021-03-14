@@ -49,7 +49,7 @@ boundaryField
         E               9.8;
         value           uniform 200;
     }
+    #includeEtc "caseDicts/setConstraintTypes"
 }
-
 
 // ************************************************************************* //

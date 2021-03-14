@@ -43,7 +43,7 @@ boundaryField
         type            kqRWallFunction;
         value           uniform 1;
     }
+    #includeEtc "caseDicts/setConstraintTypes"
 }
-
 
 // ************************************************************************* //

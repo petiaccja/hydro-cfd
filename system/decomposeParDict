@@ -15,19 +15,19 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-numberOfSubdomains 8;
+numberOfSubdomains 4;
 
-method          hierarchical;
+method          simple;
 
 simpleCoeffs
 {
-    n               (8 1 1);
+    n               (2 2 1);
     delta           0.001;
 }
 
 hierarchicalCoeffs
 {
-    n               (4 2 1);
+    n               (2 2 1);
     delta           0.001;
     order           xyz;
 }

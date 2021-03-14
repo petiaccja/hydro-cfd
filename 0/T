@@ -24,13 +24,11 @@ boundaryField
     {
         type            zeroGradient;
     }
-
     inlet
     {
         type            fixedValue;
         value           $internalField;
     }
-
     outlet
     {
         type            inletOutlet;
@@ -38,11 +36,11 @@ boundaryField
         value           $internalField;
         inletValue      $internalField;
     }
-
     model
     {
         type            zeroGradient;
     }
+    #includeEtc "caseDicts/setConstraintTypes"
 }
 
 // ************************************************************************* //

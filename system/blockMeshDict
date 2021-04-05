@@ -15,22 +15,27 @@ FoamFile
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 convertToMeters 1;
+lengthFront 3;
+lengthBack -5;
+widthP 2;
+widthN -2;
+height 2;
 
 vertices
 (
-    (-0.5 -0.5 0.0)
-    ( 0.5 -0.5 0.0)
-    ( 0.5  0.5 0.0)
-    (-0.5  0.5 0.0)
-    (-0.5 -0.5 0.4)
-    ( 0.5 -0.5 0.4)
-    ( 0.5  0.5 0.4)
-    (-0.5  0.5 0.4)
+    ($widthN $lengthBack  0.0)
+    ($widthP $lengthBack  0.0)
+    ($widthP $lengthFront 0.0)
+    ($widthN $lengthFront 0.0)
+    ($widthN $lengthBack  $height)
+    ($widthP $lengthBack  $height)
+    ($widthP $lengthFront $height)
+    ($widthN $lengthFront $height)
 );
 
 blocks
 (
-    hex (0 1 2 3 4 5 6 7) (50 50 25) simpleGrading (1 1 1)
+    hex (0 1 2 3 4 5 6 7) (80 160 40) simpleGrading (1 1 1)
 );
 
 edges

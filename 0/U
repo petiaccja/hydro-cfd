@@ -30,7 +30,7 @@ boundaryField
         //massFlowRate    constant 0.5;
         //rhoInlet        0.5;    // Guess for rho
 		type			fixedValue;
-		value			uniform (0 -20 0);
+		value			uniform (0 -30 0);
 		rhoInlet		0.5;
     }
     outlet
@@ -41,7 +41,7 @@ boundaryField
     }
     ground {
         type            fixedValue;
-        value           uniform (0 -20 0);
+        value           uniform (0 -30 0);
     }
     model
     {

@@ -16,3 +16,8 @@ processor*/
 
 
 *.OpenFOAM
+
+.vscode/
+
+constant/triSurface/
+!constant/triSurface/model.stl

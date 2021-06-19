@@ -1,0 +1,25 @@
+v11 (no wings -- reference)
+Lift =            [0.006 -1.719 13.910]  N 
+zTorque =         [-0.004 -0.000 0.000]  Nm
+
+v10 (wing at the front, 8 degrees)
+Lift =            [-0.006 -1.789 13.571]  N
+zTorque =         [-0.139 0.000 0.000]  Nm 
+
+v12 (two wings 6.5/12.5 deg)
+Lift =            [0.004 -1.802 13.361]  N
+zTorque =         [-0.260 -0.000 0.000]  Nm
+
+v13 (two wings + reduced tunnel angle)
+Lift =            [0.004 -1.764 12.676]  N 
+zTorque =         [-0.289 -0.000 0.000]  Nm
+
+v13 4mm above water surface
+Lift =            [-0.044 -1.826 9.237]  N
+zTorque =         [-0.445 0.002 0.000]  Nm
+
+v13 tilted backwards 1 deg
+Lift =            [0.011 -2.136 20.888]  N 
+zTorque =         [-0.345 -0.001 0.000]  Nm
+
+surfaceTransformPoints

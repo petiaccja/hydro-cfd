@@ -34,8 +34,8 @@ def triangle_center(triangle):
 #meshPath = "D:\\OpenFOAM\\cases\\squareBend"
 #pressurePath = "D:\\OpenFOAM\\cases\\squareBend\\163\\p"
 #pressureOffset = 110000
-meshPath = "D:\\OpenFOAM\\cases\\modifiedSquareBend"
-pressurePath = "D:\\OpenFOAM\\cases\\modifiedSquareBend\\125\\p"
+meshPath = "D:\\OpenFOAM\\cases\\hydro"
+pressurePath = "D:\\OpenFOAM\\cases\\hydro\\200\\p"
 pressureOffset = 101325
 boundaryName = b"model"
 float_formatter = "{:.3f}".format
@@ -75,4 +75,4 @@ lift = np.sum(force * areas, axis=0)
 torque = np.sum(np.cross(centers, force*np.array([[0,0,1]])) * areas, axis=0)
 
 print("Lift =           ", lift, " N")
-print("Torque =         ", torque, " Nm")
+print("zTorque =        ", torque, " Nm")
